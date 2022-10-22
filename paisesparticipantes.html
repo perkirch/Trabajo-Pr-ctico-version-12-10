@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecciones</title>
+    <link rel="shortcut icon" href="./Imágenes/Logo Favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav id="nav1">
+            <a id="home" href="index.html">Home</a>
+            <a id="acerca_de" href="./acercade.html" >Acerca de</a>
+            <a id="formulario" href="./formulario.html" >Formulario</a>
+            <a id="login" href="./login.html" >Login</a>
+            <a id="contacto" href="./contacto.html" >Contacto</a>
+        </nav>
+
+        <h1>
+            <b>World Cup Qatar 2022<img src="./Imágenes/Logo World Cup 2.png" width="70" alt="Logo World Cup"></b>
+        </h1>
+        <nav class="nav3" id="nav3">
+            <a id="grupos1" href="./grupos.html">Grupos</a>
+            <a id="fixture1" href="./fixture.html">Fixture</a>
+            <a id="estadios1" href="./paisesparticipantes.html">Selecciones</a>
+            <a id="paises_participantes1" href="./estadios.html">Estadios</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=1165478324" title="Whatsapp" target="blank"><img
+                    src="./imágenes/Logo Whatsapp.png " width="30" alt="Whatsapp"></a>
+        </div>
+        <h2 class="h2_selecciones">Selecciones</h2>
+    <div>
+      
+        
+
+        <div id="tarjeta-selecciones">
+            
+            <div class="contenedor3">
+                <div v-for="tarjeta in selecciones" class="tarjeta3">
+                    <p>{{tarjeta.id}}</p>
+                    <h3>{{tarjeta.pais}}</h3>
+                 <img :src="(tarjeta.imagen)" alt=""> 
+                    <p>{{tarjeta.descripcion}}</p>
+                    <p>Figura: {{tarjeta.figura}}</p>
+                </div>
+            </div>
+            
+        </div>
+        
+    
+       
+        
+
+    </main>
+
+    <div class="footer">
+        <footer>
+            <div class="div2">
+                <a id="instagram" href="https://www.instagram.com/fifaworldcup/" title="Instagram" target="blank">
+                    <img src="./imágenes/Logo Instagram.png" width="30" alt="Instagram"></a>
+                <a id="facebook" href="https://www.facebook.com/fifa" title="Facebook" target="blank"> <img img
+                        id="facebook_cel" src="./imágenes/Logo Facebook.png" width="30" alt="Facebook"></a>
+                <a id="twitter" href="https://twitter.com/FIFAcom" title="Twitter" target="blank"><img
+                        src="./imágenes/Logo Twitter.png" title="Twitter" width="30" alt="Twitter"></a>
+                <a id="tiktok" href="https://www.tiktok.com/@fifaworldcup" title="Tik Tok" target="_blank"><img
+                        src="./Imágenes/Logo Tik Tok.png" width="30" alt="Tik Tok"></a>
+                <a id="youtube" href="https://www.youtube.com/FIFATV" title="Youtube" target="_blank"><img
+                        src="./Imágenes/Logo Youtube.png" width="30" alt="Youtube"></a>
+            </div>
+
+        <div class="div3">
+             <a href="index.html"><img src="./Imágenes/Logos/casa.png" title="Volver al inicio" width="35"
+                    alt="Home"></a>
+            <br><br>
+            <a href="#nav1"><img src="./Imágenes/Logos/arrow-up.png" title="Ir arriba" width="30" alt="Up"></a>
+            <br>
+            <h5>Derechos reservados @2022</h5>
+        </div>
+    </footer>
+
+    </div>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script src="./js/fetch-vue.js"></script>
+</body>
+
+</html>

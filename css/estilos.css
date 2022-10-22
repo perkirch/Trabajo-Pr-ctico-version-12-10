@@ -1,0 +1,1251 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+::selection {
+    background-color: rgb(155, 7, 91);
+}
+
+body {
+    font-size: 15px;
+    /* background-image: linear-gradient(0, #ff7f4b 0, #ff714f 16.67%, #ff6252 33.33%, #f25353 50%, #e04553 66.67%, #d03953 83.33%, #c02f54 100%); */
+    /* background-image: linear-gradient(90deg, #ffaa70 0, #ff9c7b 8.33%, #ff8e83 16.67%, #ff7f8a 25%, #ff708d 33.33%, #ff618d 41.67%, #f25389 50%, #d34683 58.33%, #b83d7d 66.67%, #9f3678 75%, #893174 83.33%, #762e71 91.67%, #662d6f 100%); */
+    background: rgb(219, 11, 136);
+    background: linear-gradient(45deg, rgb(216, 24, 92) 46%, rgb(189, 16, 103) 63%);
+    color: rgb(255, 255, 255);
+}
+
+main {
+
+    text-align: center;
+}
+
+footer {
+
+    text-align: center;
+}
+
+
+/* Fijación whatssap y logo centrado whatsapp en index y acerca de (por las fotos) */
+.whatsapp {
+    position: fixed;
+    font-size: 0.7em;
+    right: 30px;
+    top: 370px;
+}
+
+#logo_whatsapp {
+    padding-left: 4em;
+}
+
+/* --------------------------------------------------------------------
+
+
+
+ /* EN INDEX.HTML Márgenes izq y der de todos los párrafos del index.html  */
+#grupos_p,
+#fixture_p,
+#estadios_p,
+#paisesparticipantes_p {
+    margin: -1em 4em 0.5em 4em;
+}
+
+/* --------------------------------------------- */
+
+/* Márgenes superiores de todos los párrafos de los h2 del index.html */
+#grupos_p {
+    margin-top: -0.5em;
+}
+
+/* Para celular */
+@media screen and (max-width: 600px) {
+    #grupos_p {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+/* Para Tablet */
+@media screen and (min-width:768px) and  (max-width: 851px) {
+    #grupos_p {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+}
+
+#fixture_p {
+    margin-top: -0.5em;
+}
+
+/* Para celular */
+@media screen and (max-width: 600px) {
+    #fixture_p {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+/* Para Tablet */
+@media screen and (min-width:768px) and  (max-width: 851px) {
+    #fixture_p {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+}
+#estadios_p {
+    margin-top: -0.5em;
+}
+
+/* Para celular */
+@media screen and (max-width: 600px) {
+    #estadios_p {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+@media screen and (min-width:768px) and  (max-width: 851px) {
+    #estadios_p{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+}
+#paisesparticipantes_p {
+    margin-top: -0.5em;
+}
+
+/* Para celular */
+@media screen and (max-width: 600px) {
+    #paisesparticipantes_p {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+}
+/* Para Tablet */
+@media screen and (min-width:768px) and  (max-width: 851px) {
+    #paisesparticipantes_p {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+}
+@media screen and (min-width:768px) and  (max-width: 851px) {
+.container1{
+    /* background-color: rgb(182, 18, 111);   */
+    background-color: rgb(189, 16, 103);
+}
+.header{ 
+    border-radius: 2.5em;
+    /* background-color: rgb(177, 38, 91)
+    } */
+}
+.grupos{
+    border: 1px solid rgb(204, 142, 177);  
+    border-radius: 5em; 
+  
+}
+.fixture{
+    border: 1px solid rgb(204, 142, 177);  
+    border-radius: 5em; 
+}
+.paisesparticipantes{
+    border: 1px solid rgb(204, 142, 177);  
+    border-radius: 5em;
+}
+.estadios{
+    border: 1px solid rgb(204, 142, 177);  
+    border-radius: 5em; 
+}
+.footer{
+    border-radius: 2.5em;
+  
+}
+.img_index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 0.3em solid rgb(186, 165, 179);
+}
+
+}
+
+/* ------------------------------------------------- */
+
+
+/* Headings */
+h1 {
+    font-size: 2.7em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    /* text-align: center; */
+
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* ------------------------------------------------ */
+
+p {
+    font-size: 1em;
+}
+
+/* Todos los hipervínculos (color y decoración) */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(245, 123, 180)
+}
+
+/* a:visited{color:rgb(95, 5, 5)} */
+
+/* -------------------------------------------------------------------- */
+
+/* Barra nav1 arriba izquierda (Acerca de, Login, etc) */
+#nav1 {
+    font-size: 0.8em;
+    text-align: left;
+    
+}
+
+#home {
+    padding-right: 1em;
+    margin-left: 0.5em;
+}
+
+#acerca_de {
+    padding-right: 1em;
+}
+
+#formulario {
+    padding-right: 1em;
+}
+
+#login {
+    padding-right: 1em;
+}
+
+/* -------------------------------------------------------------------- */
+
+/* Alineación #div2 para Notebook (arriba a la derecha */
+.div2 {
+    margin-top: 7em;
+}
+
+/* -------------------------------------------------------------------- */
+
+/* Barra nav3 Menú general (Grupos, Fixture, etc)*/
+#nav3 {
+    font-size: 1.5em;
+    /* background-color: rgb(232, 41, 95); */
+}
+
+/* #nav3 en Celular */
+@media screen and (max-width: 600px) {
+    #nav3 a {
+        float: left;
+        width: 100%;
+        padding-right: 0em;
+        margin-bottom: 0.5em;
+        margin-left: 0em;
+        text-align: center;
+    }
+}
+
+#grupos1 {
+    margin-left: em;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-style: dotted;
+    border-radius: 0.5em;
+    background-color: rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+
+}
+
+#fixture1 {
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-style: dotted;
+    border-radius: 0.5em;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+}
+
+#estadios1 {
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-style: dotted;
+    border-radius: 0.5em;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+
+}
+
+#paises_participantes1 {
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-style: dotted;
+    border-radius: 0.5em;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+
+}
+
+/* -------------------------------------------------------------------- */
+
+/* IMÁGENES */
+
+/* Todas las imágenes del Index para Notebook */
+.img_index {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 2px solid rgb(238, 41, 179);
+    border-radius: 5px;
+
+}
+
+/* Todas las imágenes de Acerca de para Notebook */
+.img_acercade {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 2px solid rgb(238, 41, 179);
+    border-radius: 5px;   
+}
+
+/* Todas las imágenes de Estadios para Notebook */
+#img_estadios {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 2px solid rgb(238, 41, 179);
+    border-radius: 5px;
+}
+
+/* Todas las imágenes de Index, Acerca de, Estadios, etc para Celular */
+@media screen and (max-width: 600px) {
+    .img_index {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .img_acercade {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #img_estadios {
+        width: 80%;
+    }
+}
+
+
+
+/* ------------------------------------------------------------------------------------ */
+
+
+/* EN GRUPOS.HTML */
+/* H2 grupos para Notebook */
+.h2_grupos{
+    border-radius: 0.5em;
+    border-style: dotted;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+    margin-top: 1.5em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:1.5em;
+    height: 1.5em;
+    width: 6em;     
+    }
+/* H2 grupos para Celular */
+@media screen and (max-width: 600px) {
+    .h2_grupos{
+        margin-top: 7em;
+        margin-right: auto;
+        margin-bottom:2em;
+        margin-left: auto; 
+    }
+}
+
+/* Contenedor del menú grupos para Notebook */
+.contenedor_padre1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center; 
+   
+}
+/* Los divs de dicho contenedor para Notebook */
+.contenedor_padre1 div{
+    width: 5em;
+    border-style: dotted;
+    border-radius: 0.6em;
+    background-color: rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+    padding: 0.5em;
+}
+
+/* Contenedor para Celular? */
+@media screen and (max-width: 600px) {
+    .contenedor_padre1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 1em;
+        row-gap: 1em;
+    }
+    } 
+
+/* ---------------------------------------------------------------- */
+
+
+
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    /* justify-content: content;
+    gap: 1.5em; */
+    justify-content: space-evenly;
+    row-gap: 4em ;
+    column-gap: 1em;
+    margin-top: 2.5em;
+}
+.tarjeta1{
+    background-color: rgb(238, 14, 96);
+    width: 21em;
+    border: 0.2em solid rgb(231, 11, 70);
+    border-radius: 1em;
+    /* padding-left: 0.3em;
+    padding-right: 0.3em;     */
+    margin:auto;
+}
+/* Hace que las tablas (todas) ocupen el 100% del ancho del div .tarjeta1 */
+div .tabla{
+    width: 100%;
+    
+}
+.borde-tabla{
+    border: 3px solid rgb(241, 77, 129);
+    border-radius: 0.5em; 
+}
+
+
+/* Márgenes de las tablas para Notebook */
+/* .grupob,
+.grupod,
+.grupoe,
+.grupof {
+    margin-left: 27em;
+}
+
+.grupoa,
+.grupoc,
+.grupog {
+    margin-left: 26em;
+}
+
+.grupoh {
+    margin-left: 25em;
+} */
+
+/* Márgenes de las tablas para Celular */
+/* @media screen and (max-width: 600px) {
+
+    .grupoa,
+    .grupoc,
+    .grupog {
+        margin-left: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .grupob,
+    .grupod,
+    .grupoe,
+    .grupof {
+        margin-left: 3em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .grupoh {
+        margin-left: 1.3em;
+    }
+} */
+
+/* Todos los nav3 salvo los del Index.html porque tiene CSS GRID para Notebook*/
+.nav3 {
+    margin-left: 9em;
+    
+}
+
+/* Todos los nav3 salvo los del Index.html porque tiene CSS GRID para Celular*/
+@media screen and (max-width: 600px) {
+    .nav3 {
+        margin-left: 0em;
+        margin-right: 1.2em;
+    }
+}
+
+
+/* Decoración de las tablas */
+table th {
+    /* background: rgb(255, 0, 81) */
+    background-color: rgb(235, 43, 129);
+    
+    
+}
+table tr{
+    background-color: rgb(238, 27, 111);
+}
+
+.grupoa tr:nth-child(even) {
+    background-color: rgb(222, 94, 128);
+}
+
+.grupob tr:nth-child(even) {
+    background-color: rgb(222, 94, 128);
+}
+
+.grupoc tr:nth-child(even) {
+    background-color: rgb(222, 94, 128);
+}
+
+.grupod tr:nth-child(even) {
+    background-color: rgb(222, 94, 128);
+}
+
+.grupoe tr:nth-child(even) {
+    background-color: rgb(210, 131, 152);
+}
+
+.grupof tr:nth-child(even) {
+    background-color: rgb(210, 131, 152);
+}
+
+.grupog tr:nth-child(even) {
+    background-color: rgb(210, 131, 152);
+}
+
+.grupoh tr:nth-child(even) {
+    background-color: rgb(210, 131, 152);
+}
+
+/* ----------------------------------------------------------------------------------------- */
+
+/* En FIXTURE.HTML */
+/* H2 Fixture para Notebook */
+.h2_fixture {
+    border-radius: 0.5em;
+    border-style: dotted;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+    margin-top: 1.5em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:1.5em;
+    height: 1.5em;
+    width: 6em;     
+}
+
+/* H2 Fixture para Celular */
+@media screen and (max-width: 600px) {
+    .h2_fixture{
+        margin-top: 7em;
+        margin-right: auto;
+        margin-bottom:2em;
+        margin-left: auto; 
+    }
+}
+
+/* Contenedor del menú fixture para Notebook */
+.contenedor_padre2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center; 
+   
+}
+/* Los divs de dicho contenedor para Notebook */
+.contenedor_padre2 div{
+    width: 9em;
+    border-style: dotted;
+    border-radius: 0.6em;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+    padding: 0.5em;
+}
+
+/* El contenedor del Menú fixture para Celular */
+     @media screen and (max-width: 600px) {
+        .contenedor_padre2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            column-gap: 1em;
+            row-gap: 1em;
+    }} 
+    /* Contenedor grupos */
+/* El contenedor de todos los grupos del fixture para Notebook */
+.contenedor2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    /* justify-content: content;
+    gap: 1.5em; */
+    justify-content: space-evenly;
+    row-gap: 4em ;
+    column-gap: 1em;
+    
+}
+/* Las tarjetas de dicho contenedor para Notebook */
+.tarjeta2{
+    background-color: rgb(226, 18, 98);
+    width: 20em;
+    border: 0.2em solid rgb(231, 11, 70);
+    border-radius: 1em;
+    margin:auto;
+       /* object-fit: contain; */
+}
+/* .borde_tablas{
+    border: 1em solid rgb(20, 20, 20);
+} */
+
+/* --------------------------------------------------------------------------------------- */
+
+
+/* En footers, márgen de Volver Arriba  */
+.div3 {
+    margin-top: 4em;
+}
+
+/* -------------------------------------------------------------------- */
+
+
+.container1 {
+    display: grid;
+    grid-template: auto auto auto auto / auto auto;
+    /* grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto; */
+    gap: 0.5em;
+    text-align: center;
+
+}
+
+/* .container div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.header {
+    grid-column: 1 / span 2;
+}
+
+.grupos {}
+
+.fixture {}
+
+.estadios {}
+
+.paisesparticipantes {}
+
+.footer {
+    grid-column: 1 / span 2;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .header,
+    .grupos,
+    .fixture,
+    .estadios,
+    .paisesparticipantes,
+    .footer {
+        grid-column: 1 / span2;
+        
+    }
+
+    .container1 {
+        grid-template-rows: auto auto auto auto auto auto;
+    }
+}
+
+
+
+/* EN ACERCADE.HTML */
+/* Para Notebook */
+.acercade_h2_geo {
+    border-radius: 0.5em;
+    border-style: dotted;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+    margin-top: 1.5em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:1.5em;
+    height: 1.5em;
+    width: 6em;   
+}
+/* Para Celular */
+@media screen and (max-width: 600px) {
+    .acercade_h2_geo {
+        margin-top: 7em;
+        margin-right: auto;
+        margin-bottom:2em;
+        margin-left: auto;    
+    }
+}
+/* Para Notebook */
+.acercade_h2_his {
+    border-radius: 0.5em;
+    border-style: dotted;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+    margin-top: 2em;
+    margin-right:auto;
+    margin-bottom:1.5em;
+    margin-left:auto;
+    height: 1.5em;
+    width: 6em;   
+}
+/* Para Celular */
+@media screen and (max-width: 600px) {
+    .acercade_h2_his {
+        margin-top: 2.5em;
+        margin-right: auto;
+        margin-bottom:2em;
+        margin-left: auto; 
+    }
+}
+
+.acercade_div_geo,
+.acercade_div_his {
+    color: rgb(255, 255, 255);
+    margin: 1em 4em 0.5em 4em;
+}
+
+@media screen and (max-width: 600px) {
+    .acercade_div_geo {
+        margin-top: 0.5em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .acercade_div_his {
+        /* margin-top: 0.5em; */
+        margin-left: 2em;
+        margin-right: 2em;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #youtube1,
+    #youtube2,
+    #youtube3,
+    #youtube4 {
+        width: 65%;
+        height: auto;
+    }
+}
+
+
+/* EN PAISESPARTICIPANTES.HTML */
+.h2_selecciones{
+    border-radius: 0.5em;
+    border-style: dotted;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+    margin-top: 2em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:1.5em;
+    height: 1.5em;
+    width: 6em; 
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .h2_selecciones {
+        margin-top: 8.5em;
+        margin-right: auto;
+        margin-bottom:2em;
+        margin-left: auto; 
+    }
+}
+
+/* Contenedor del menú Selecciones para Notebook */
+.contenedor_padre3{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center; 
+   margin-top: 1em;
+   margin-bottom: 2.5em;
+   
+}
+/* Los divs de dicho contenedor para Notebook */
+.contenedor_padre3 div{
+    width: 9em;
+    border-style: dotted;
+    border-radius: 0.6em;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+    padding: 0.5em;
+    font-size:0.7em;
+}
+/*Flexbox */
+.tarjeta3 {
+    background-color: rgb(238, 6, 111);
+    width: 23em;
+    border: 0.2em solid rgb(231, 11, 70);
+    border-radius: 1em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    /* object-fit: contain; */
+}
+
+h3 p {
+    font-size: 0.2em;
+}
+
+.tarjeta3 img {
+    width: 100% !important;
+    height: auto !important;
+
+}
+
+.contenedor3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: content;
+    gap: 1.5em; */
+    justify-content: space-evenly;
+    row-gap: 4em ;
+    column-gap: 2em;
+}
+
+.img_paisesparticipantes {
+    border-radius: 1em !important;
+}
+/* ----------------------------------------------------------------------------------- */
+
+/* EN FORMULARIO3333.HTML */
+#nav12 {
+    font-size: 0.8em;
+    text-align: left;
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+}
+#wc12{
+    font-size:2.5em;
+}
+/* ----------------------------------------------------------------------------------------- */
+/* EN FORMULARIO.HTML */
+/* H2 Formulario para Notebook */
+.h2_formulario{
+    border-radius: 0.5em;
+    border-style: dotted;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+    margin-top: 2em;
+    margin:0 auto;
+    margin-bottom:0.5em;
+    padding-left: 0em;
+    height: 1.5em;
+    width: 6em; 
+}
+.formu1{
+    background-color: rgb(187, 35, 93);
+    width: 15em;
+    border: 1px solid rgb(238, 41, 179);
+    border-radius: 5px;
+    text-align: left;
+    padding: 1.5em 1em 1.5em 1.5em;
+    margin:0 auto;
+
+}
+.formu2{
+    background-color: rgb(187, 35, 93);
+    width: 15em;
+    border: 1px solid rgb(238, 41, 179);
+    border-radius: 5px;
+    text-align: left;
+    padding: 2em 2em 2em 2.5em;
+    margin:0 auto;
+
+}
+
+.boton{
+    background-color: rgb(208, 46, 108);
+    width: 8em;
+    border: 2px solid rgb(238, 41, 179);
+    border-radius: 5px;
+    color:white ;
+    
+}
+
+/* H2 Formulario para Celular */
+@media screen and (max-width: 600px) {
+    .h2_formulario {
+        margin-top: 3em;
+        margin:0 auto;
+        margin-bottom:0.5em;
+    }
+}
+#formulario1 {
+    margin-top: 2em;
+}
+
+form {
+    font-size: 1em;
+}
+
+.contenedor4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    row-gap: 4em ;
+    column-gap: 1em;
+
+}
+.tarjeta4{
+    background-color: rgb(187, 35, 93);
+    width: 20em;
+    border: 1px solid rgb(238, 41, 179);
+    border-radius: 5px;
+    margin:auto;
+    padding-top: 2em;
+    padding-right: 0.5em;
+    padding-bottom: 2em;
+    padding-left: 0.5em;
+
+}
+
+@media screen and (max-width: 600px) {
+    #formulario1 {
+        margin-top: 7em;
+    }
+}
+
+
+/* EN ESTADIOS.HTML */
+/* Caja h2 Estadios para Notebook */
+#h2_estadios {
+    border-radius: 0.5em;
+    border-style: dotted;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+    margin-top: 1.5em;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:1.5em;
+    height: 1.5em;
+    width: 6em; 
+}
+
+/* Caja h2 Estadios para Celular */
+@media screen and (max-width: 600px) {
+    #h2_estadios {
+        margin-top: 7em;
+        margin-right: auto;
+        margin-bottom:2em;
+        margin-left: auto; 
+    }
+}
+
+/* Iframes para Celular */
+@media screen and (max-width: 600px) {
+
+    #iframe1,
+    #iframe2,
+    #iframe3,
+    #iframe4,
+    #iframe5,
+    #iframe6,
+    #iframe7,
+    #iframe8 {
+        width: 50%;
+        height: auto;
+    }
+}
+
+
+
+/* En estadios.html márgenes para todos los párrafos para Notebook*/
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7,
+#p8 {
+    margin: 1em 4em 0.5em 4em;
+}
+
+
+/* En estadios.html márgenes para todos los párrafos para Celular*/
+@media screen and (max-width: 600px) {
+
+    #p1,
+    #p2,
+    #p3,
+    #p4,
+    #p5,
+    #p6,
+    #p7,
+    #p8 {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
+
+
+/* EN LOGIN.HTML*/
+
+/* H2 Login para Notebook */
+.h2_login {
+    border-radius: 0.5em;
+    border-style: dotted;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+    margin-top: 2em;
+    margin:0 auto;
+    margin-bottom:0.5em;
+    padding-left: 0em;
+    height: 1.5em;
+    width: 4em; 
+}
+/* H2 Login para Celular */
+@media screen and (max-width: 600px) {
+    .h2_login {
+        margin-top: 3em;
+        margin: 0 auto;
+        margin-bottom:0.5em;         
+    }
+}
+
+#login1 {
+    margin-top: 2em;
+}
+
+.login {
+    font-size: 1em;
+}
+
+@media screen and (max-width: 600px) {
+    #login1 {
+        margin-top: 7em;
+    }
+}
+.transicion{
+    width: 250px;
+    height: 80px;
+    margin:0 auto;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    /* transition: width 1s ease-in-out, heigth 1s ease-in-out, transform 0.4s; */
+}
+      
+.transicion:hover {
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+        border-radius: 0.5em;
+        border-style: dotted;
+        /* width: 300px; 
+        height: 60px; */
+        transform:scale(1.3) rotate(350deg);
+      }
+/* ------------------------------------------------ */
+
+/* Contacto */
+/* H2 Contacto para Notebook */
+.h2_contacto {
+    border-radius: 0.5em;
+    border-style: dotted;
+    background-color:  rgb(209, 28, 109);
+    border-color: rgb(241, 116, 116);
+    margin:0 auto;
+    margin-bottom:0.5em;
+    padding-right: 0.1em;
+    height: 1.5em;
+    width: 6em; 
+}
+
+/* H2 Contacto para Celular */
+@media screen and (max-width: 600px) {
+    .h2_contacto {
+        margin:0 auto;
+        margin-bottom:0.7em;
+    }
+}
+
+#contacto1{
+    margin-top: 2em;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* Estos 2 que están abajo no sé qué son/ver celular */
+@media screen and (max-width: 600px) {
+    #contacto1 {
+        margin-top: 8em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #div2_acercade {
+        position: absolute;
+        margin-top: 148em;
+        margin-left: 13em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    display: grid;
+    grid-template: 1fr 2fr 2fr 1fr 1fr/ 530x 530x;
+    grid-template-areas: 'header header'
+                         'main1 main3'
+                         'main2 main4'
+                         'nuevito nuevito'
+                         'footer footer';
+   
+    row-gap: 5px;
+    text-align: center;  
+    
+                         
+}
+
+.header{
+    grid-area: header;
+    background-color: blueviolet;
+    padding: 2em
+}
+.nuevito{
+    grid-area: nuevito;
+    background-color: red;
+    padding: 2em
+}
+.grupos{
+    grid-area: main1;
+    background-color: rgb(98, 98, 95);
+    padding: 2em
+}
+.estadios{
+    grid-area: main2;
+    background-color: yellow;
+    padding: 2em
+}
+.fixture{
+    grid-area: main3;
+    background-color: rgb(0, 255, 13);
+}
+.paisesparticipantes{
+    grid-area: main4;
+    background-color: rgb(0, 145, 255);
+}
+.footer{
+    grid-area: footer;
+    background-color: green;
+}
+
+@media screen and (max-width: 600px){
+    .container {
+        grid-template-rows: 10% 20% 20% 20% 20% 10%;
+        grid-template-areas: 'header header'
+        'main1 main1'
+        'main2 main2'
+        'main3 main3'
+        'main4 main4'
+        'nuevito footer'
+
+    }
+}
+@media screen and (max-width: 600px){
+    .grupos{
+       padding: 0.5em;
+    }
+} */
+/* @media screen and (max-width: 600px){
+    .grupos{
+        grid-area: main1;
+        background-color: rgb(98, 98, 95);
+        width: 100%;
+       
+    }
+} */

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="./Imágenes/Logo Favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav id="nav1"> 
+            <a id="home"href="index.html">Home</a>
+            <a id="acerca_de" href="./acercade.html" >Acerca de</a>
+            <a id="formulario" href="./formulario.html">Registro</a>
+            <a id="login" href="./login.html">Login</a>
+            <a id="contacto" href="./contacto.html">Contacto</a>
+        </nav>
+    
+        <h1>
+            <b>World Cup Qatar 2022<img src="./Imágenes/Logo World Cup 2.png"width="70" alt="Logo World Cup"></b>
+        </h1> 
+        
+        <nav class="nav3" id="nav3">
+            <a id="grupos1" href="./grupos.html">Grupos</a>
+            <a id="fixture1" href="./fixture.html">Fixture</a>
+            <a id="paises_participantes1"href="./paisesparticipantes.html">Selecciones</a>
+            <a id="estadios1"href="./estadios.html">Estadios</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <div>
+            <h2 class="h2_contacto" id="contacto1">Contáctenos</h2>
+       </div>
+       <img src="./Imágenes/Logos/contactos.png" width="40" alt="Login">
+       <br><br>
+
+
+            <div class="formu2">
+                <form action="./show-data.html" id="formu">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre..."><br><br>
+                    
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido..."><br><br>
+                    
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="Ingrese su email..."><br><br>
+                    
+                    <!-- <label for="nacimiento">Fecha de Nacimiento (mm/dd/yyyy):</label>
+                    <input type="text" name="nacimiento" id="nacimiento" name="birthdate"
+                    placeholder="Ingrese su fecha de nacimiento aquí..."><br><br> -->
+                    
+                    <label for="pais">País:</label><br>
+                    <input type="text" name="pais" id="pais" placeholder="Ingrese su país..."><br><br>
+                    
+                    <textarea name="comentarios" cols="30" rows="10">Escriba su cosulta o comentario...</textarea>
+                    <br><br>
+
+                    <label for="terminos">Acepto los términos</label>
+                    <input type="checkbox" id="terminos"><br><br>
+
+                    <input class="boton" type="submit" value="Enviar">
+
+                    <input class="boton"type="reset" value="Borrar todo">
+                    
+                </form>
+            </div>
+       
+
+        <div class="transicion">
+            <h4>Mandanos un whatsapp
+            <a href="https://api.whatsapp.com/send?phone=1165478324" title="Whatsapp" target="blank"><img src="./imágenes/Logo Whatsapp.png "  width="30" alt="Whatsapp"></a></h4>
+        </div>
+        <div class="transicion">
+            <h4>Envianos un email
+            <a href="mailto:qatar2022@gmail.com" title="Mail" target="blank"><img src="./imágenes/Logo Mail.png "  width="30" alt="Mail"></a></h4>
+        </div>
+    </main>
+
+    <div class="footer">
+        <footer>
+            <div class="div2">
+                <a id="instagram" href="https://www.instagram.com/fifaworldcup/" title="Instagram" target="blank">
+                    <img src="./imágenes/Logo Instagram.png" width="30" alt="Instagram"></a>
+                <a id="facebook" href="https://www.facebook.com/fifa" title="Facebook" target="blank"> <img img
+                        id="facebook_cel" src="./imágenes/Logo Facebook.png" width="30" alt="Facebook"></a>
+                <a id="twitter" href="https://twitter.com/FIFAcom" title="Twitter" target="blank"><img
+                        src="./imágenes/Logo Twitter.png" title="Twitter" width="30" alt="Twitter"></a>
+                <a id="tiktok" href="https://www.tiktok.com/@fifaworldcup" title="Tik Tok" target="_blank"><img
+                        src="./Imágenes/Logo Tik Tok.png" width="30" alt="Tik Tok"></a>
+                <a id="youtube" href="https://www.youtube.com/FIFATV" title="Youtube" target="_blank"><img
+                        src="./Imágenes/Logo Youtube.png" width="30" alt="Youtube"></a>
+            </div>
+
+            <div class="div3">
+                <a href="index.html"><img src="./Imágenes/Logos/casa.png" title="Volver al inicio" width="35"
+                       alt="Home"></a>
+               <br><br>
+               <a href="#nav1"><img src="./Imágenes/Logos/arrow-up.png" title="Ir arriba" width="30" alt="Up"></a>
+               <br>
+               <h5>Derechos reservados @2022</h5>
+           </div>
+       </footer>
+
+    </div>
+
+    </div>
+    
+    <script src="./js/contacto-validacion.js"></script>
+</body>
+</html>
